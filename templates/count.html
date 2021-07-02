@@ -1,0 +1,7 @@
+<h1>There is total {{count}} words is here</h1>
+<h2>Your text</h2>
+{{fulltext}}
+<h2>Most used word</h2>
+{% for words,counts in count_discnary %}
+        <h3>{{words}} : {{counts}}</h3> 
+{% endfor %}
