@@ -3,6 +3,7 @@ from django.shortcuts import render
 import operator
 
 def homepage(request):
+        print('123')
         return render(request,'home.html')
 
 def count(request):
